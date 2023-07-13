@@ -1,0 +1,101 @@
+<!-- // 1)Game board setup(done in HTML-section tag)
+// - [ ] 8 Pairs of cards
+// - [ ] Each card should have 2 states(face-up/down) -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Memory Card</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script defer src="js/main.js"></script>
+      </head>
+<body>
+    <h1>MEMORY GAME</h1>
+    <h2 id="countdown">Timer 1:00</h2>
+    <h4 id="timesUp"></h4>
+    <h3 id="wining"></h3>
+    <button id="restartBtn">Restart</button>
+
+  <section class="gameboard">
+<!-- using data attribute(data-name) to store custom data within an element which is our cards' name -->
+    <div class="tiles" data-image="4H">
+      <img class="front-face" src="images/4H__83243__13942.jpg" alt="4H" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+    <div class="tiles" data-image="4H">
+      <img class="front-face" src="images/4H__83243__13942.jpg" alt="4H" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+
+    <div class="tiles" data-image="7C">
+      <img class="front-face" src="images/7C__93490__11317.jpg" alt="7C" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+    <div class="tiles" data-image="7C">
+      <img class="front-face" src="images/7C__93490__11317.jpg" alt="7C" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+
+    <div class="tiles" data-image="8S">
+      <img class="front-face" src="images/8S__27839__42923.jpg" alt="8S" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+    <div class="tiles" data-image="8S">
+      <img class="front-face" src="images/8S__27839__42923.jpg" alt="8S" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+
+    <div class="tiles" data-image="JS">
+      <img class="front-face" src="images/JC__86231__74895.jpg" alt="JS" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+    <div class="tiles" data-image="JS">
+      <img class="front-face" src="images/JC__86231__74895.jpg" alt="JS" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+
+    <div class="tiles" data-image="KH">
+      <img class="front-face" src="images/KH__01216__30660.webp" alt="KH" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+    <div class="tiles" data-image="KH">
+      <img class="front-face" src="images/KH__01216__30660.webp" alt="KH" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+
+    <div class="tiles" data-image="QD">
+      <img class="front-face" src="images/QD__14920__31462.jpg" alt="QD" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+    <div class="tiles" data-image="QD">
+      <img class="front-face" src="images/QD__14920__31462.jpg" alt="QD" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+
+    <div class="tiles" data-image="9D">
+      <img class="front-face" src="images/9D__67286__64203.jpg" alt="9D" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+    <div class="tiles" data-image="9D">
+      <img class="front-face" src="images/9D__67286__64203.jpg" alt="9D" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+
+    <div class="tiles" data-image="10H">
+      <img class="front-face" src="images/10H__11470__91447.jpg" alt="10H" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+    <div class="tiles" data-image="10H">
+      <img class="front-face" src="images/10H__11470__91447.jpg" alt="10H" />
+      <img class="back-face" src="images/gray_back__56034.png" alt="grey back" />
+    </div>
+
+     
+    
+  </section>
+  
+  
+</body>
+</html>

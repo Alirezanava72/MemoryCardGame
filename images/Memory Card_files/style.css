@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    
+  }
+
+  /* h1, h2 {
+    
+  }
+   */
+.gameboard {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+    margin-top: 100px;
+  }
+  
+  .tiles {
+    width: calc(25% - 10px);
+    height: calc(35% - 10px);
+    margin: 5px;
+    position: relative;
+    /* card scales in the page */
+    transform: scale(1);
+    /* 3D perspective effect for transformed elements with transform-style */
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    box-shadow: 10px 10px 10px rgba(132, 190, 6, 0.907);
+  }
+  
+  .tiles:active {
+    transform: scale(0.97);
+    transition: transform .10s;
+  }
+  
+  .tiles.flip {
+    transform: rotateY(180deg);
+  }
+  
+  .front-face,
+  .back-face {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    /* this is for hide the back face once card is selected */
+    backface-visibility: hidden;
+  }
+  
+  .front-face {
+    /* this is for rotating the front face(180 degree) of the cards once the back face is hidden after clicking */
+    transform: rotateY(180deg);
+  }
+
+  button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: green;
+    color: pink;
+    border-color: red;
+    font-size: 20px;
+    width: 20vmax;;
+  }
