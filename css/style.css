@@ -9,7 +9,7 @@
     display: grid;
     justify-content: center;
     justify-items: center;
-    background-color: #ffdd00;
+    background-color: #ffd978;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 50px 50px 50px 50px;
     grid-template-areas:
@@ -45,7 +45,7 @@
   }
   
   .tiles:active {
-    transform: scale(0.97);
+    transform: scale(1);
     transition: transform .10s;
   }
   

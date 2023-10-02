@@ -1,5 +1,7 @@
 # MEMORY GAME
 ----------
+I developed my very first web app game, a memory card game, using HTML, CSS, and JavaScript. This project combined front-end technologies to create an interactive and engaging user experience. Players match pairs of cards while enjoying a visually appealing design. Game gets started with clicking on the first card.<br>
+Building this game was an exciting introduction to web development and honed my skills in these core web technologies.
 
 A memory game is a type of game that tests and exercises your memory skills. It typically involves a set of cards or tiles with different images, symbols, or patterns. The objective of the game is to find matching pairs of cards by flipping them over and remembering their positions.
 
@@ -11,7 +13,7 @@ Memory games are not only entertaining but also help enhance cognitive skills su
 
 ## Example
 ---------
-![This is a photo of a Memory game as an example](https://www.memozor.com/templates/memoire/images/zoom/free_memory_games_online_adults.jpg)
+![This is a photo of a Memory game as an example](./images/project1.png)
 
 ## Technologies Used
 --------
